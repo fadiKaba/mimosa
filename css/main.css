@@ -1,0 +1,67 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #f4f4f4; }
+
+.main-nav {
+  background-color: #00284f; }
+  .main-nav .brand-logo {
+    text-transform: uppercase;
+    margin-left: 20px; }
+  .main-nav ul {
+    text-transform: capitalize; }
+
+.carousel-container {
+  position: relative; }
+  .carousel-container .carousel {
+    max-height: 92vh; }
+  .carousel-container button {
+    position: absolute;
+    top: 50%; }
+    .carousel-container button.prev {
+      left: 5px; }
+    .carousel-container button.next {
+      right: 5px; }
+
+.allepo {
+  margin-top: 40px; }
+  .allepo h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #333; }
+  .allepo p {
+    text-align: center; }
+
+.wehave h2 {
+  text-align: center; }
+
+.wehave .card {
+  min-height: 630px; }
+  .wehave .card a {
+    background-color: #00284f; }
+
+@media (max-width: 993px) {
+  .wehave .card {
+    min-height: 300px; } }
+
+.jasco ul li {
+  list-style-type: circle !important; }
+
+footer {
+  text-align: center;
+  background-color: #00284f;
+  color: #f4f4f4; }
+  footer div:nth-child(1) {
+    margin-bottom: 0; }
+    footer div:nth-child(1) p {
+      text-transform: capitalize; }
+  footer h2 {
+    margin: 10px 0;
+    font-size: 20px;
+    text-transform: uppercase; }
+  footer ul.social li {
+    display: inline;
+    margin: 10px 20px; }
+    footer ul.social li a {
+      color: #f4f4f4; }
+  footer ul.info li {
+    margin: 5px 0; }
